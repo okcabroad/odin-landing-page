@@ -114,7 +114,12 @@ h2 {
 .chess-box {
     width: 100px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Optional margin between images */
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: salmon;
+   
+    
 }
 
 .blurb {
@@ -122,6 +127,7 @@ h2 {
     font-size: 14px;
     color: #555; /* Adjust the color as needed */
     margin-top: 5px; /* Add spacing between image and text */
+   
 }
 
 .image-container {
