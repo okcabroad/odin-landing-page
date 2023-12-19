@@ -28,6 +28,7 @@ ul{
     flex-direction: row;
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -91,4 +92,41 @@ img{
     margin-top: 10px;
     border-radius: 8px;
     border: 1px #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.second-section {
+    /* Add any styling for second-section if needed */
+}
+
+.second-section .second-section-containers {
+    display: flex;
+    justify-content: center; /* Horizontally centers the flex items */
+    align-items: center; /* Vertically centers the flex items */
+}
+
+.chess-box {
+    width: 100px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional margin between images */
+}
+
+.blurb {
+    text-align: center;
+    font-size: 14px;
+    color: #555; /* Adjust the color as needed */
+    margin-top: 5px; /* Add spacing between image and text */
+}
+
+.image-container {
+    text-align: center; /* Centers content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
