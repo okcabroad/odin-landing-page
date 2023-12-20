@@ -138,14 +138,18 @@ h2 {
 }
 
 .third-section{
+    display: flex;
     background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .quote-box{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   align-self: center;
    padding: 20px;
    width: 800px;
 
@@ -155,10 +159,14 @@ h2 {
     font-size: 30px;
     font-style: italic;
     color: #1F2937;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .author{
+    padding-top: 20px;
     align-self: flex-end;
+    color: #1F2937;
+    font-size: large;
+    
+    
 }
