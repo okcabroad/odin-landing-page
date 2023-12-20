@@ -190,7 +190,7 @@ h2 {
    
 }
 
-.sign-up-banner-text{
+.sign-up-banner-left{
     display: flex;
     flex-direction: column;
     color: white;
@@ -208,9 +208,18 @@ h2 {
 .sign-up-banner-right{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: max-content;
+    margin-left: 150px;
+}
 
-
+#big-button{
+    font-size: x-large;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
