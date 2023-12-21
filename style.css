@@ -82,6 +82,9 @@ h1{
 
 img{
     margin: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: salmon;
 }
 
 .sign-up-first-section{
@@ -99,10 +102,6 @@ h2 {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-}
-
-.second-section {
-    /* Add any styling for second-section if needed */
 }
 
 .second-section .second-section-containers {
@@ -222,4 +221,16 @@ h2 {
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 20px;
+}
+
+.copyright{
+    color: white;
 }
